@@ -8,6 +8,7 @@ context('Actions', () => {
   it('type search', () => {
     cy.get('.gLFyf').type('mathieu douale');
     cy.get('.FPdoLc > center > [value="Google zoeken"]').click();
-    cy.get('[href="http://www.mathieu-douale.com/"] > .LC20lb').click();
+    cy.get('#hdtb-msb-vis > :nth-child(2) > .q').click();
+    cy.get('[data-ri="1"] > .iKjWAf > .FnqxG').click();
   })
 })
